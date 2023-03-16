@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My carousel</title>
+   <link rel="stylesheet" href="./resetcssv2.css">
+   <link rel="stylesheet" href="./index.css">
+   <script src="./main.js"></script>
+</head>
+
+<body onbeforeunload="return myFunction()">
+   <header class="hero-img">
+      <h1 class="h1">NajNetflix</h1>
+      <p class=" tx-italic hero-tx">Top Netflix serije i filmovi </p>
+      <nav class="nav">
+         <ul class="nav-list">
+            <li class="nav-item" onclick="onNavChange('top10')"><a class="nav-links" href="#top10">Top 10</a></li>
+            <li class="nav-item" onclick="onNavChange('filmovi')"><a class="nav-links" href="#filmovi">Filmovi</a></li>
+            <li class="nav-item" onclick="onNavChange('serije')"><a class="nav-links" href="#serije">Serije</a></li>
+            <li class="nav-item" onclick="onNavChange('najave')"><a class="nav-links" href="#najave">Najave</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <div class="container">
+         <section id="top10">
+            <h2 class="h2">Top 10 serija i filmova na Netflix-u</h2>
+            <figure class="figure">
+               <a href="https://www.youtube.com/watch?v=65xa8TG2G8o">
+                  <img class="border-r figure-img" src="Slike zavrsni projekat/Anna.jpg" alt="Inventing Anna">
+                  <p>Click to whatch trailer</p>
+               </a>
+               <figcaption class="figure-title">"Inventing Anna"</figcaption>
+               <p class="figure-tx">A journalist with a lot to prove investigates the case of Anna Delvey, the
+                  Instagram-legendary German heiress who stole the hearts of New York's social scene.
+                  <span class="tx-red pointer">Read more...</span>
+               </p>
+            </figure>
+            <figure class="figure">
+               <a href="https://www.youtube.com/watch?v=WnV0JoflZiA">
+                  <img class="border-r figure-img" src="Slike zavrsni projekat/Sex_life.jpg" alt="Sex life">
+                  <p>Click to whatch trailer</p>
+               </a>
+               <figcaption class="figure-title">"Sex life"</figcaption>
+               <br>
+               <p class="figure-tx">A suburban wife and mother takes a fantasy-charged trip down memory lane that sets
+                  her present on a collision course with her wild-child past.
+                  <span class="tx-red pointer">Read more...</span>
+               </p>
+            </figure>
+            <figure class="figure">
+               <a href="https://www.youtube.com/watch?v=UKCmefQdplI">
+                  <img class="border-r figure-img" src="Slike zavrsni projekat/Stutz.jpg" alt="Stutz">
+                  <p>Click to whatch trailer</p>
+               </a>
+               <figcaption class="figure-title">"Stutz"</figcaption>
+               <p class="figure-tx">In candid conversations with actor Jonah Hill, leading psychiatrist Phil Stutz
+                  explores his early life experiences and unique, visual model of therapy.
+                  <span class="tx-red pointer">Read more...</span>
+
+               </p>
+            </figure>
+
+            <figure class="figure">
+               <a href="https://www.youtube.com/watch?v=7i5kiFDunk8">
+                  <img class="border-r pointer" src="Slike zavrsni projekat/Promising_young_women.jpg"
+                     alt="Promising young women">
+                  <p>Click to watch trailer</p>
+               </a>
+               <figcaption class="figure-title">"Promising young women"</figcaption>
+               <p class="figure-tx">Cassie, a young woman, takes it upon herself to seek revenge for her best friend,
+                  Nina, who committed suicide after being raped by their classmate, Al Monroe.
+                  <span class="tx-red pointer">Read more...</span>
+               </p>
+            </figure>
+            <figure class="figure">
+               <a href="https://www.youtube.com/watch?v=ObN4krVV20Y">
+                  <img class="border-r pointer" src="Slike zavrsni projekat/Swimmers1.jpg" alt="Swimmers">
+                  <p>Click to watch trailer</p>
+               </a>
+               <figcaption class="figure-title">"Swimmers"</figcaption>
+               <p class="figure-tx">Two Syrian sisters flee their war-torn home in Damascus, swim for hours in choppy
+                  Mediterranean seas to reach Greece as asylum seekers before going on to compete at the Rio Olympic
+                  Games.
+                  <span class="tx-red pointer">Read more...</span>
+               </p>
+            </figure>
+            <figure class="figure">
+               <a href="https://www.youtube.com/watch?v=Od2NW1sfRdA">
+                  <img class="border-r pointer" src="Slike zavrsni projekat/Pinocchio.jpg" alt="Pinocchio">
+                  <p>Click to watch trailer</p>
+               </a>
+               <figcaption class="figure-title">"Pinocchio"</figcaption>
+               <p class="figure-tx">A father's wish magically brings a wooden boy to life in Italy, giving him a chance
+                  to care for the child. However, the two of them have to struggle to find a place for themselves as
+                  Italy becomes embroiled in fascism.
+                  <span class="tx-red pointer">Read more...</span>
+               </p>
+            </figure>
+            <figure class="figure">
+               <a href="https://www.youtube.com/watch?v=oVzVdvGIC7U">
+                  <img class="border-r pointer" src="Slike zavrsni projekat/Peaky_Blinders.jpg" alt="Peaky Blinders">
+                  <p>Click to watch trailer</p>
+               </a>
+               <figcaption class="figure-title">"Peaky Blinders"</figcaption>
+               <p class="figure-tx">A gangster family epic set in 1900s England, centering on a gang who sew razor 
+                  blades in the peaks of their caps, and their fierce boss Tommy Shelby.
+                  <span class="tx-red pointer">Read more...</span>
+               </p>
+            </figure>
+            <figure class="figure">
+               <a href="https://www.youtube.com/watch?v=b9EkMc79ZSU">
+                  <img class="border-r pointer" src="Slike zavrsni projekat/Stranger_things.jpg" alt="Stranger things">
+                  <p>Click to watch trailer</p>
+               </a>
+               <figcaption class="figure-title">"Stranger things"</figcaption>
+               <p class="figure-tx">When a young boy vanishes, a small town uncovers a mystery involving secret experiments,
+                  terrifying supernatural forces and one strange little girl.
+                  <span class="tx-red pointer">Read more...</span>
+               </p>
+            </figure>
+            <figure class="figure">
+               <a href="">
+                  <img class="border-r pointer" src="Slike zavrsni projekat/Coming soon.jpg" alt="Swimmers">
+                  <p></p>
+               </a>
+               <figcaption class="figure-title">U pripremi"</figcaption>
+               <p class="figure-tx"></p>
+            </figure>
+            <figure class="figure">
+               <a href="">
+                  <img class="border-r pointer" src="Slike zavrsni projekat/Coming soon.jpg" alt="Swimmers">
+                  <p></p>
+               </a>
+               <figcaption class="figure-title">U pripremi"</figcaption>
+               <p class="figure-tx"></p>
+            </figure>
+            <figure class="figure">
+               <a href="">
+                  <img class="border-r pointer" src="Slike zavrsni projekat/Coming soon.jpg" alt="Swimmers">
+                  <p></p>
+               </a>
+               <figcaption class="figure-title">U pripremi"</figcaption>
+               <p class="figure-tx"></p>
+            </figure>
+         </section>
+      </div>
+
+      <section id="filmovi">
+         <h2 class="h2">Filmovi Netflix</h2>
+         <img class="soon" src="Slike zavrsni projekat/Coming soon.jpg" alt="Uskoro">
+      </section>
+      <section id="serije">
+         <h2 class="h2">Serije Netflix</h2>
+         <img class="soon" src="Slike zavrsni projekat/Coming soon.jpg" alt="Uskoro">
+      </section>
+      <section id="najave">
+         <h2 class="h2">Najave</h2>
+         <img class="soon" src="Slike zavrsni projekat/Coming soon.jpg" alt="Uskoro">
+      </section>
+
+   </main>
+
+   <footer class="footer-style">
+      <div class="footer-container">
+         <form onsubmit="ValidateForm (event)">
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="checkbox">I want to receive information about new releses via mail</label>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input class="input-style" type="email" id="Email" name="Email">
+            <p class="error-message" id="ErrorMail"></p>
+            <p class="success-msg" id="SuccessMail"></p>
+            <br>
+            <br>
+            <p>Write us your recomendations for best of Netflix</p>
+            <br>
+            <label for="message">Text:</label>
+            <input class="input-style" type="text" id="Message" name="message">
+            <p class="error-message" id="ErrorMessage"></p>
+            <p class="success-msg" id="SuccessMessage"></p>
+            <br>
+            <br>
+            <button class="submit" type="submit" id="Submit">Send</button>
+            <p class="success-submit" id="SuccessSubmit"></p>
+            <p class="error-submit" id="ErrorSubmit"></p>
+         </form>
+
+      </div>
+      <p class="copyright">&copy; Page by Dee | All rights reserved </p>
+   </footer>
+   <script>
+      function myFunction() {
+         return "This document is ready to load";
+      }
+   </script>
+</body>
+
+</html>
