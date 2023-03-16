@@ -1,2 +1,5 @@
 # Daxy999.github.io
-Zavrsni rad na Frontend Beginer kursu
+Finishing my Frontend Beginer course
+Learning HTML, CSS and Java Sript
+Making life and career changes
+Preparing web site for launch
